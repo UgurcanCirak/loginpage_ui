@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413517368131",
+    "project_id": "koykasabi-d2766",
+    "storage_bucket": "koykasabi-d2766.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413517368131:android:28ccce13cb14d10c51fdf6",
+        "android_client_info": {
+          "package_name": "com.example.loginpage_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD72Lp8nuOOlswb18WugNMAQ0nVgm3rwv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
