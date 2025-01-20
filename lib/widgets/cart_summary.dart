@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../screens/payment_page.dart';
+
 class CartSummary extends StatelessWidget {
   final double totalAmount;
 
@@ -23,7 +25,12 @@ class CartSummary extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              // Sepeti onaylama işlemi buraya gelecek
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => PaymentPage(totalAmount: totalAmount),
+                ),
+              );
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.redAccent,

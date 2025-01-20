@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loginpage_ui/screens/location_page.dart';
 import 'product_category_page.dart';
 import '../data/product_data.dart';
 
@@ -10,8 +11,11 @@ class HomePage extends StatelessWidget {
         title: Text('Kategoriler'),
         centerTitle: true,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: GridView.count(
+        crossAxisCount: 2,
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        padding: const EdgeInsets.all(10),
         children: [
           ProductButton(
             title: 'Tavuk',
@@ -28,6 +32,27 @@ class HomePage extends StatelessWidget {
               products: redMeatProducts,
               category: 'Kırmızı Et',
             ),
+          ),
+          ProductButton(
+            title: 'Mangal Malzemeleri',
+            image: 'images/mangal.jpeg',
+            targetPage: ProductCategoryPage(
+              products: grillProducts, // Mangal ürünler listesi
+              category: 'Mangal Malzemeleri',
+            ),
+          ),
+          ProductButton(
+            title: 'Baharatlar',
+            image: 'images/baharat.jpg',
+            targetPage: ProductCategoryPage(
+              products: spicesProducts, // Baharat ürünler listesi
+              category: 'Baharatlar',
+            ),
+          ),
+          ProductButton(
+            title: 'İşletme Lokasyonlarımız',
+            image: 'images/lokasyon.jpeg',
+            targetPage: MapSample(), // Lokasyonlar sayfası
           ),
         ],
       ),
@@ -54,8 +79,6 @@ class ProductButton extends StatelessWidget {
             context, MaterialPageRoute(builder: (context) => targetPage));
       },
       child: Container(
-        margin: EdgeInsets.all(20),
-        height: 280,
         decoration: BoxDecoration(
           color: Colors.redAccent,
           borderRadius: BorderRadius.circular(15),
@@ -65,7 +88,8 @@ class ProductButton extends StatelessWidget {
           child: Text(
             title,
             style: TextStyle(
-                fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+                fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+            textAlign: TextAlign.center,
           ),
         ),
       ),
