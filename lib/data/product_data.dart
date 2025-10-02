@@ -1,64 +1,68 @@
 final chickenProducts = [
-  {'name': 'Tavuk Göğsü', 'pricePerKg': 50.0, 'image': 'images/göğüs.jpeg'},
-  {'name': 'Tavuk Kanadı', 'pricePerKg': 40.0, 'image': 'images/kanat.jpeg'},
+  {'name': 'Tavuk Göğsü', 'pricePerKg': 270.0, 'image': 'images/göğüs.jpeg'},
+  {'name': 'Tavuk Kanadı', 'pricePerKg': 560.0, 'image': 'images/kanat.jpeg'},
   {
     'name': 'Izgara Tava',
-    'pricePerKg': 45.0,
-    'image': 'images/ızgara_tava.jpeg'
+    'pricePerKg': 320.0,
+    'image': 'images/ızgara_tava.png'
   },
   {
     'name': 'Bütün Tavuk',
-    'pricePerKg': 35.0,
-    'image': 'images/bütün_tavuk.jpeg'
+    'pricePerKg': 140.0,
+    'image': 'images/butun_tavuk.jpg'
   },
-  {'name': 'Kelebek', 'pricePerKg': 48.0, 'image': 'images/kelebek.jpeg'},
-  {'name': 'Tavuk Pirzola', 'pricePerKg': 52.0, 'image': 'images/pirzola.jpeg'},
+  {'name': 'Kelebek', 'pricePerKg': 180.0, 'image': 'images/kelebek.jpg'},
+  {
+    'name': 'Tavuk Pirzola',
+    'pricePerKg': 220.0,
+    'image': 'images/tavuk_pirzola.jpg'
+  },
 ];
 
 final redMeatProducts = [
   {
     'name': 'Dana Antrikot',
-    'pricePerKg': 120.0,
+    'pricePerKg': 1200.0,
     'image': 'images/antrikot.jpeg'
   },
-  {'name': 'Kuzu Pirzola', 'pricePerKg': 140.0, 'image': 'images/pirzola.jpeg'},
-  {'name': 'Dana Biftek', 'pricePerKg': 110.0, 'image': 'images/biftek.jpeg'},
-  {'name': 'Kuzu Lokum', 'pricePerKg': 160.0, 'image': 'images/lokum.jpeg'},
+  {
+    'name': 'Kuzu Pirzola',
+    'pricePerKg': 1600.0,
+    'image': 'images/pirzola.jpeg'
+  },
+  {'name': 'Dana Biftek', 'pricePerKg': 1100.0, 'image': 'images/biftek.jpg'},
+  {'name': 'Kuzu Lokum', 'pricePerKg': 1600.0, 'image': 'images/lokum.jpg'},
+  {'name': 'Bonfile', 'pricePerKg': 1750.0, 'image': 'images/bonfile.jpeg'},
   {
     'name': 'Kuzu Külbastı',
     'pricePerKg': 150.0,
-    'image': 'images/külbastı.jpeg'
+    'image': 'images/külbastı.jpg'
   },
-  {'name': 'Dana Süsleme', 'pricePerKg': 90.0, 'image': 'images/süsleme.jpeg'},
   {'name': 'Dana Ciğer', 'pricePerKg': 70.0, 'image': 'images/dana_ciğer.jpeg'},
   {'name': 'Kuzu Ciğer', 'pricePerKg': 80.0, 'image': 'images/kuzu_ciğer.jpeg'},
   {
     'name': 'Kuzu Kuşbaşı',
-    'pricePerKg': 130.0,
-    'image': 'images/kuzu_kuşbaşı.jpeg'
+    'pricePerKg': 1200.0,
+    'image': 'images/kuzu_kuşbaşı.jpg'
   },
   {
     'name': 'Dana Kuşbaşı',
-    'pricePerKg': 100.0,
-    'image': 'images/dana_kuşbaşı.jpeg'
+    'pricePerKg': 850.0,
+    'image': 'images/dana_kuşbaşı.jpg'
   },
-  {'name': 'Döş Kıyma', 'pricePerKg': 85.0, 'image': 'images/döş_kiyma.jpeg'},
-  {
-    'name': 'Yağsız Kıyma',
-    'pricePerKg': 95.0,
-    'image': 'images/yağsız_kiyma.jpeg'
-  },
-  {'name': 'Sucuk', 'pricePerKg': 150.0, 'image': 'images/sucuk.jpeg'},
-  {'name': 'Köfte', 'pricePerKg': 120.0, 'image': 'images/köfte.jpeg'},
+  {'name': 'Döş Kıyma', 'pricePerKg': 760.0, 'image': 'images/döş.jpg'},
+  {'name': 'Yağsız Kıyma', 'pricePerKg': 810.0, 'image': 'images/yağsız.jpg'},
+  {'name': 'Sucuk', 'pricePerKg': 920.0, 'image': 'images/sucuk.jpg'},
+  {'name': 'Köfte', 'pricePerKg': 800.0, 'image': 'images/köfte.jpg'},
 ];
 
 final grillProducts = [
-  {'name': 'Reşo', 'pricePerKg': 15.0, 'image': 'images/reşo.jpeg'},
-  {'name': 'Çıra', 'pricePerKg': 10.0, 'image': 'images/çıra.jpeg'},
-  {'name': 'Kömür', 'pricePerKg': 25.0, 'image': 'images/kömür.jpeg'},
+  {'name': 'Reşo', 'pricePerKg': 25.0, 'image': 'images/reşo.jpeg'},
+  {'name': 'Çıra', 'pricePerKg': 15.0, 'image': 'images/çıra.jpeg'},
+  {'name': 'Kömür', 'pricePerKg': 130.0, 'image': 'images/kömür.jpeg'},
   {
     'name': 'Mangal Teli',
-    'pricePerKg': 30.0,
+    'pricePerKg': 200.0,
     'image': 'images/mangal_teli.jpeg'
   },
 ];

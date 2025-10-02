@@ -21,17 +21,17 @@ class MapSampleState extends State<MapSample> {
 
   // İşletme marker'ları
   final Set<Marker> _markers = {
-    Marker(
+    const Marker(
       markerId: MarkerId('cerclerSubesi'),
       position: LatLng(36.19871539185301, 29.652023226216784),
       infoWindow: InfoWindow(title: 'Köy Kasabı Çerçiler Şubesi'),
     ),
-    Marker(
+    const Marker(
       markerId: MarkerId('agullu'),
       position: LatLng(36.21654365704988, 29.682629484555868),
       infoWindow: InfoWindow(title: 'Kaş Köy Kasabı Ağullu'),
     ),
-    Marker(
+    const Marker(
       markerId: MarkerId('ciftlik'),
       position: LatLng(36.25344440609445, 29.797261037590747),
       infoWindow: InfoWindow(title: 'Atahan Besicilik'),
@@ -42,7 +42,7 @@ class MapSampleState extends State<MapSample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("İşletmelerimiz"),
+        title: const Text("İşletmelerimiz"),
       ),
       body: GoogleMap(
         mapType: MapType.normal,
